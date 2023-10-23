@@ -225,9 +225,8 @@ nav ul li a {
 }
 
 .hero-left p {
-  text-align: justify;
   flex: 1;
-  padding: 20px;
+  padding: 20px 0 0 0;
   text-align: left;
 }
 
@@ -248,6 +247,12 @@ nav ul li a {
   text-align: right;
 }
 
+.hero-right p {
+  flex: 1;
+  padding: 20px 0 0 0;
+  text-align: left;
+  text-align: justify;
+}
 .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
